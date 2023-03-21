@@ -27,7 +27,7 @@ const addMusic = e =>{
 
 }
 
-  return (
+return (
     <form onSubmit={addMusic} id='form'> 
             <h2>Add New Music</h2>
             <label>Title</label><br/>
@@ -46,7 +46,7 @@ const addMusic = e =>{
 
 
     </form>
-  )
+ )
 }
 
 export default AddMusic
