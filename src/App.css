@@ -1,0 +1,27 @@
+#root {
+    width: 100%;
+    text-align: center;
+    
+  }
+  .musicList {
+    padding: 1rem;
+    background: linear-gradient(#e66465, #9198e5);
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  #form {
+    margin: auto;
+    padding: 24px;
+    background-image: url(../public/icons8-team-7LNatQYMzm4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: tomato;
+  }
+  form input{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
